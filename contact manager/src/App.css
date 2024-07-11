@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+}
+
+/* contactLis Component */
+
+.contactlist {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-bottom: 2px solid rgb(166, 160, 160);
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Home Component */
+.search {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  border-bottom: 2px solid rgb(166, 160, 160);
+  align-items: center;
+}
+
+.search input {
+  padding: 8px;
+  width: 70%;
+  margin-right: 2px;
+}
+
+.search a {
+  padding: 5px;
+  background-color: seagreen;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid black;
+}
+
+/* add contact */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  gap: 10px;
+}
+
+.form input {
+  padding: 10px;
+}
+
+.form input[type="submit"] {
+  background-color: seagreen;
+  color: #fff;
+}
